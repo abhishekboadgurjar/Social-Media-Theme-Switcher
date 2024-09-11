@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.app {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  margin-block: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard h1 {
+  font-size: 1.7rem;
+  line-height: 0;
+}
+
+.dashboard p {
+  font-size: 0.9rem;
+  color: #8b97c6;
+}
+
+.mode {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.mode p {
+  color: #8b97c6;
+}
+
+.toggle-area {
+  width: 50px;
+  height: 22px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, hsl(210, 78%, 56%) 5%, hsl(146, 68%, 55%) 100%);
+  display: flex;
+  align-items: center;
+}
+
+.left-toggle-btn {
+  background-color: #1f212e;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-left: 29px;
+}
+
+.right-toggle-btn {
+  margin-left: 1px;
+  background-color: #1f212e;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+
+.social-cards {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.social-card-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.card {
+  width: 280px;
+  height: 240px;
+  background-color: #252a41;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.follower {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.follower h1 {
+  font-size: 60px;
+  line-height: 0;
+}
+
+.follower p {
+  font-size: 16px;
+  line-height: 0;
+  color: rgb(98, 107, 174);
+  letter-spacing: 2px;
+}
+
+.view {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.view img {
+  width: 14px;
+}
+
+.view p {
+  color: #1eb589;
+}
+
+.overView {
+  width: 100%;
+  margin-block: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 850px;
+}
+
+.overView h1 {
+  font-size: 1.7rem;
+}
+
+.reach {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.analytics {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.section-a {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.a-card {
+  background-color: #252a41;
+  width: 280px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  gap: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.a-card:hover {
+  transform: scale(1.1);
+}
+
+.logosImage p {
+  color: #1eb589;
+}
+
+.logosImage p img {
+  width: 15px;
+}
+
+.down p {
+  color: #dc414c;
+}
+
+@media (max-width: 1230px) {
+  .social-card-section {
+    flex-direction: column;
+  }
+  .section-a {
+    flex-direction: column;
+  }
+  .overView {
+    margin-right: 0;
+  }
+  .header {
+    text-align: center;
+    flex-direction: column;
+  }
+  .mode {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 660px) {
+  .social-cards {
+    flex-direction: column;
+  }
+  .analytics {
+    flex-direction: column;
+  }
+}
+
+/* Light Mode */
+
+.body.light .card {
+  background-color: #f0f2fa;
+}
+
+.body.light .a-card {
+  background-color: #f0f2fa;
+}
+
+.body.light .toggle-area {
+  background: #aeb3cb;
+}
+
+.body.light {
+  background-color: white;
+  color: black;
+}
+
+.body.dark {
+  background-color: #1f212e;
+  color: white;
+}
