@@ -1,4 +1,4 @@
-# Social Media Theme Switcher
+# Social Media Theme Switcher Website
 
 ## Introduction
 
