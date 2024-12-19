@@ -77,4 +77,4 @@ The **Social Media Theme Switcher** is a great project to learn about handling u
 
 ### Author
 
-**Abhishek Gurjar** is a dedicated web developer passionate about building accessible and user-friendly web applications. Check out more of his work on [GitHub](https://github.com/abhishekgurjar-in).
+**Abhishek Gurjar** is a dedicated web developer passionate about building accessible and user-friendly web applications. Check out more of his work on [GitHub](https://github.com/abhishekboadgurjar).
